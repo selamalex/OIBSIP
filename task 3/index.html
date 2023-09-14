@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temp Converter</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="left">
+                <p>1:56</p>
+            </div>
+            <div class="right">
+                <img src="images/cellular.png" alt="network" class="network-icon">
+                <img src="images/wifi.png" alt="wifi" class="wifi-icon">
+                <img src="images/full-battery.png" alt="battery" class="battery-icon">
+            </div>
+        </header>
+        <div class="main">
+            <div class="sub-main">
+                <h1>Temperature Converter</h1>
+                <div class="inputs">
+                    <div class="left-side">
+                        <label class="label" for="degrees">Degrees</label>
+                        <input type="text" name="" id="degrees">
+                    </div>
+                    <div class="right-side">
+                        <label class="label" for="type">Type</label>
+                        <select id="type">
+                            <option value="fahrenheit">Fahrenheit</option>
+                            <option value="celsius">Celsius</option>
+                            <option value="kelvin">Kelvin</option>
+                          </select>
+                        </div>
+                </div>
+            </div>
+            <label for="totype" id="typeconvert">To</label>
+            <select id="totype">
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+              </select>
+            </div>
+            <label for="result" class="resultlabel">Result</label>
+            <input type="text" id="result">
+            <button id="convert">Convert</button>
+            <footer class="footer">
+                <img src="images/rectangle.png" alt="ram" class="ram">
+                <img src="images/oval.png" alt="home" class="home">
+                <img src="images/play-button.png" alt="back" class="back">
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
